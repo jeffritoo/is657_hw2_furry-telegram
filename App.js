@@ -6,7 +6,6 @@ import Column from "./Column";
 import Box from "./Box";
 import Container1 from "./container1"
 import Container2 from "./container2"
-import container1 from "./container1";
 
 export default function App() {
   return (
