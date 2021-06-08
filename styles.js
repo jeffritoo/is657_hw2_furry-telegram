@@ -7,6 +7,7 @@ export default StyleSheet.create({
     backgroundColor: "ghostwhite",
     alignItems: "flex-start",
     justifyContent: "space-evenly",
+    paddingLeft:20,
     ...Platform.select({
       ios: { paddingTop: 20 },
       android: { paddingTop: StatusBar.currentHeight }
@@ -31,7 +32,7 @@ export default StyleSheet.create({
   box: {
     height: 50,
     width: 100,
-    justifyContent: "center",
+    justifyContent: "space-around",
     alignItems: "center",
     borderWidth: 1,
     borderStyle: "solid",
@@ -39,8 +40,9 @@ export default StyleSheet.create({
     backgroundColor: "lightgray",
   },
   boxText: {
-    color: "darkslategray",
-    fontWeight: "bold"
+    color: "black",
+    fontWeight: "bold",
+    fontSize:20,
   },
   container1Text: {
     color: "black",
